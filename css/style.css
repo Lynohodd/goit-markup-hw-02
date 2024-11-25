@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+button {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+a {
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.04em;
+}
+
+/*================= NAVIGATION =================*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.f-part-of-logo {
+  color: #4d5ae5;
+}
+
+/*================= HERO =================*/
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.ord-service {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+} */
