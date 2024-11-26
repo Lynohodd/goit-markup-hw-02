@@ -4,25 +4,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-
-  color: #ffffff;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
 }
 
 button {
@@ -42,15 +31,46 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.167;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.s-part-of-logo {
   color: #2e2f42;
 }
 
-.f-part-of-logo {
-  color: #4d5ae5;
+.link-nav {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: #404bbf;
+}
+
+.address-top {
+  font-style: normal;
+}
+
+.address-link-top {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address-link-top:hover,
+.address-link-top:focus {
+  color: #404bbf;
 }
 
 /*================= HERO =================*/
@@ -59,16 +79,46 @@ a {
   background-color: #2e2f42;
 }
 
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: #ffffff;
+}
+
 .ord-service {
+  line-height: 1.5;
+
+  cursor: pointer;
+
   color: #ffffff;
   background-color: #4d5ae5;
 }
 
-/* // <uniquifier>: Use a unique and descriptive class name
+.ord-service:hover,
+.ord-service:focus {
+  background-color: #404bbf;
+}
 
-.raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-} */
+/*================= Features =================*/
+
+.features .item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.features .features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
