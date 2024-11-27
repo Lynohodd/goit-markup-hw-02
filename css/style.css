@@ -1,3 +1,5 @@
+/* #region================= STOCK STYLES =================*/
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -9,9 +11,31 @@ body {
   background-color: #ffffff;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+
+  color: #ffffff;
+}
+
 h2 {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: #2e2f42;
 }
 
 button {
@@ -20,12 +44,21 @@ button {
 }
 
 a {
-  font-size: 12px;
+  /* font-size: 12px;
   line-height: 1.333;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.04em; */
+
+  text-decoration: none;
+
+  color: currentColor;
 }
 
-/*================= NAVIGATION =================*/
+ul {
+  list-style-type: none;
+}
+/* #endregion */
+
+/* #region================= HEADER =================*/
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -57,39 +90,30 @@ a {
   color: #404bbf;
 }
 
-.address-top {
+.address-header {
   font-style: normal;
 }
 
-.address-link-top {
+.link-address-header {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.address-link-top:hover,
-.address-link-top:focus {
+.link-address-header:hover,
+.link-address-header:focus {
   color: #404bbf;
 }
+/* #endregion */
 
-/*================= HERO =================*/
+/* #region================= HERO =================*/
 
 .hero {
   background-color: #2e2f42;
 }
 
-.page-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-
-  color: #ffffff;
-}
-
-.ord-service {
+.button-hero {
   line-height: 1.5;
 
   cursor: pointer;
@@ -98,27 +122,56 @@ a {
   background-color: #4d5ae5;
 }
 
-.ord-service:hover,
-.ord-service:focus {
+.button-hero:hover,
+.button-hero:focus {
   background-color: #404bbf;
 }
+/* #endregion */
 
-/*================= Features =================*/
+/* #region================= FEATURES =================*/
 
-.features .item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-
-  color: #2e2f42;
-}
-
-.features .features-text {
+/* .features .features-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 
   color: #434455;
+} */
+/* #endregion */
+
+/* #region================= OUR TEAM =================*/
+
+.team {
+  background-color: #f4f4fd;
 }
+
+.team h3 {
+  text-align: center;
+}
+
+.team p {
+  text-align: center;
+}
+
+/* #endregion */
+
+/* #region================= OUR PORTFOLIO =================*/
+
+/* #endregion */
+
+/* #region================= FOOTER =================*/
+
+footer {
+  background-color: #2e2f42;
+}
+
+footer .s-part-of-logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+/* #endregion */
