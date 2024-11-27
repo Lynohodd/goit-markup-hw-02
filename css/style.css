@@ -25,9 +25,14 @@ h2 {
   font-size: 36px;
   line-height: 1.11;
 
-  text-align: center;
-
   color: #2e2f42;
+}
+
+.post-title {
+  text-align: center;
+  text-transform: capitalize;
+
+  letter-spacing: 0.02em;
 }
 
 h3 {
@@ -71,7 +76,7 @@ ul {
   color: #4d5ae5;
 }
 
-.s-part-of-logo {
+.part-of-logo {
   color: #2e2f42;
 }
 
@@ -90,30 +95,34 @@ ul {
   color: #404bbf;
 }
 
-.address-header {
+.header-address {
   font-style: normal;
 }
 
-.link-address-header {
+.header-address-link {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.link-address-header:hover,
-.link-address-header:focus {
+.header-address-link:hover,
+.header-address-link:focus {
   color: #404bbf;
 }
 /* #endregion */
 
-/* #region================= HERO =================*/
+/* #region================= HERO 1 =================*/
 
 .hero {
   background-color: #2e2f42;
 }
 
-.button-hero {
+.hero-title {
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
   line-height: 1.5;
 
   cursor: pointer;
@@ -122,13 +131,17 @@ ul {
   background-color: #4d5ae5;
 }
 
-.button-hero:hover,
-.button-hero:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 /* #endregion */
 
-/* #region================= FEATURES =================*/
+/* #region================= FEATURES 2 =================*/
+
+.features-item-title {
+  letter-spacing: 0.02em;
+}
 
 /* .features .features-text {
   font-weight: 400;
@@ -140,23 +153,30 @@ ul {
 } */
 /* #endregion */
 
-/* #region================= OUR TEAM =================*/
+/* #region================= OUR TEAM 3 =================*/
 
 .team {
   background-color: #f4f4fd;
 }
 
-.team h3 {
+.team-item {
+  letter-spacing: 0.02em;
   text-align: center;
+
+  background-color: #ffffff;
 }
 
-.team p {
-  text-align: center;
+.team-item-title {
+  letter-spacing: 0.02em;
+}
+
+.team-item-text {
+  font-size: 16px;
 }
 
 /* #endregion */
 
-/* #region================= OUR PORTFOLIO =================*/
+/* #region================= OUR PORTFOLIO 4 =================*/
 
 /* #endregion */
 
@@ -166,7 +186,7 @@ footer {
   background-color: #2e2f42;
 }
 
-footer .s-part-of-logo {
+footer .part-of-logo {
   color: #f4f4fd;
 }
 
