@@ -11,36 +11,7 @@ body {
   background-color: #ffffff;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-
-  color: #ffffff;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-
-  color: #2e2f42;
-}
-
-.post-title {
-  text-align: center;
-  text-transform: capitalize;
-
-  letter-spacing: 0.02em;
-}
-
 h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-
-  color: #2e2f42;
 }
 
 button {
@@ -60,6 +31,30 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.post-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.item-text {
+  font-size: 16px;
 }
 /* #endregion */
 
@@ -119,7 +114,13 @@ ul {
 }
 
 .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+
+  color: #ffffff;
 }
 
 .hero-button {
@@ -139,18 +140,6 @@ ul {
 
 /* #region================= FEATURES 2 =================*/
 
-.features-item-title {
-  letter-spacing: 0.02em;
-}
-
-/* .features .features-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-  color: #434455;
-} */
 /* #endregion */
 
 /* #region================= OUR TEAM 3 =================*/
@@ -164,14 +153,6 @@ ul {
   text-align: center;
 
   background-color: #ffffff;
-}
-
-.team-item-title {
-  letter-spacing: 0.02em;
-}
-
-.team-item-text {
-  font-size: 16px;
 }
 
 /* #endregion */
